@@ -1,0 +1,174 @@
+[ 2019-03-23T16:38:42+08:00 ] ::1 /shetuanguanli/index.php/assets/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-03-23T16:38:42+08:00 ] ::1 /shetuanguanli/index.php/assets/js/ace-extra.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-03-23T16:38:42+08:00 ] ::1 /shetuanguanli/index.php/js/jquery-1.9.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+ERR: 无法加载模块:Js
+
+[ 2019-03-23T16:38:42+08:00 ] ::1 /shetuanguanli/index.php/assets/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-03-23T16:38:42+08:00 ] ::1 /shetuanguanli/index.php/assets/js/typeahead-bs2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-03-23T16:38:42+08:00 ] ::1 /shetuanguanli/index.php/assets/js/ace-elements.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-03-23T16:38:42+08:00 ] ::1 /shetuanguanli/index.php/assets/js/ace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-03-23T16:38:42+08:00 ] ::1 /shetuanguanli/index.php/assets/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-03-23T16:38:42+08:00 ] ::1 /shetuanguanli/index.php/assets/laydate/laydate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-03-23T16:38:42+08:00 ] ::1 /shetuanguanli/index.php/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+ERR: 无法加载模块:Js
+
+[ 2019-03-23T16:38:42+08:00 ] ::1 /shetuanguanli/index.php/images/%E6%BD%8D%E5%9D%8A%E7%A7%91%E6%8A%80%E5%AD%A6%E9%99%A2%E6%A0%A1%E5%BE%BD.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Images
+
+[ 2019-03-23T16:38:43+08:00 ] ::1 /shetuanguanli/index.php/assets/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-03-23T16:38:43+08:00 ] ::1 /shetuanguanli/index.php/assets/css/ace-skins.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-03-23T16:38:43+08:00 ] ::1 /shetuanguanli/index.php/assets/css/ace-rtl.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-03-23T16:38:43+08:00 ] ::1 /shetuanguanli/index.php/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+ERR: 无法加载模块:Css
+
+[ 2019-03-23T16:38:43+08:00 ] ::1 /shetuanguanli/index.php/js/jquery-1.9.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+ERR: 无法加载模块:Js
+
+[ 2019-03-23T16:38:43+08:00 ] ::1 /shetuanguanli/index.php/assets/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-03-23T16:38:43+08:00 ] ::1 /shetuanguanli/index.php/assets/js/typeahead-bs2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-03-23T16:38:43+08:00 ] ::1 /shetuanguanli/index.php/assets/js/ace-elements.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-03-23T16:38:43+08:00 ] ::1 /shetuanguanli/index.php/assets/js/ace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-03-23T16:38:43+08:00 ] ::1 /shetuanguanli/index.php/assets/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-03-23T16:38:43+08:00 ] ::1 /shetuanguanli/index.php/assets/laydate/laydate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-03-23T16:38:43+08:00 ] ::1 /shetuanguanli/index.php/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+ERR: 无法加载模块:Js
+
+[ 2019-03-23T16:41:52+08:00 ] ::1 /shetuanguanli/index.php/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+ERR: 无法加载模块:Css
+
+[ 2019-03-23T16:41:52+08:00 ] ::1 /shetuanguanli/index.php/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+ERR: 无法加载模块:Js
+
+[ 2019-03-23T16:41:52+08:00 ] ::1 /shetuanguanli/index.php/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+ERR: 无法加载模块:Js
+
+[ 2019-03-23T16:43:12+08:00 ] ::1 /shetuanguanli/index.php/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Css
+
+[ 2019-03-23T16:43:12+08:00 ] ::1 /shetuanguanli/index.php/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载模块:Js
+
+[ 2019-03-23T16:43:13+08:00 ] ::1 /shetuanguanli/index.php/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: 无法加载模块:Js
+
