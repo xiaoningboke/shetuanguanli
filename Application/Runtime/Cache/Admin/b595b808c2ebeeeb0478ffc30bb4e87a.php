@@ -234,7 +234,7 @@
 		</div>
 		<div class="navbar-header pull-right" role="navigation">
 			<ul class="nav ace-nav">
-				<li class="light-blue"> <a data-toggle="dropdown" href="#" class="dropdown-toggle"> <span class="time"><em id="time"></em></span><span class="user-info"><small>欢迎光临,</small>社团管理系统</span> <i class="icon-caret-down"></i> </a>
+				<li class="light-blue"> <a data-toggle="dropdown" href="#" class="dropdown-toggle"> <span class="time"><em id="time"></em></span><span class="user-info"><small>欢迎光临,</small>超级管理员</span> <i class="icon-caret-down"></i> </a>
 					<ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
 						<!--<li><a href="javascript:void(0" name="Systems.html" title="系统设置" class="iframeurl"><i class="icon-cog"></i>网站设置</a></li>-->
 						<li><a href="javascript:void(0)" name="admin_info.html" title="个人信息" class="iframeurl"><i class="icon-user"></i>个人资料</a></li>
@@ -321,7 +321,7 @@
 			</script>
 			<div class="sidebar-shortcuts" id="sidebar-shortcuts">
 				<div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
-					<span style="color: #585858">超级管理员</span>&nbsp;&nbsp;&nbsp;&nbsp;
+					<span style="color: #585858">社团管理系统</span>&nbsp;&nbsp;&nbsp;&nbsp;
 					<span style="color: #585858">管理员</span>
 					<!--<a class="btn btn-info">
                                              <i class="icon-pencil"></i>
