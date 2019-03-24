@@ -55,6 +55,7 @@ class IndexController extends Controller {
             }
         }
     }
+    
     /**
      * 判断用户是否存在，存在就写入session
      * @param  [type] $username   [description]
