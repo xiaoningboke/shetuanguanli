@@ -117,13 +117,13 @@
  </div>
 
 <!-- 修改系部信息 -->
-<div class="add_menber" id="exit_menber_style" style="display:none">
-  
+<div class="exit_menber" id="exit_menber_style" style="display:none">
+    <input type="hidden" name="exitid" id="exitId">
     <ul class=" page-content">
-     <li><label class="label_name">系部名称：</label><span class="add_name"><input id="department_name" name="department_name" type="text"  class="text_add"/></span><div class="prompt r_f"></div></li>
+     <li><label class="label_name">系部名称：</label><span class="add_name"><input id="exitdepartment_name" name="department_name" type="text"  class="text_add"/></span><div class="prompt r_f"></div></li>
      <li><label class="label_name">状&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;态：</label><span class="add_name">
-     <label><input name="state" type="radio" value="0" id="state0" class="ace"><span class="lbl">正常</span></label>&nbsp;&nbsp;&nbsp;
-     <label><input name="state" type="radio" value="1" id="state1" class="ace"><span class="lbl">冻结</span></label>&nbsp;&nbsp;&nbsp;
+     <label><input name="exitstate" type="radio" value="0" id="state0" class="ace"><span class="lbl">正常</span></label>&nbsp;&nbsp;&nbsp;
+     <label><input name="exitstate" type="radio" value="1" id="state1" class="ace"><span class="lbl">冻结</span></label>&nbsp;&nbsp;&nbsp;
      </span>
      <div class="prompt r_f"></div>
      </li>
@@ -282,10 +282,16 @@ function member_edit(department_name,state,id){
         area : ['800px' , ''],
         content:$('#exit_menber_style'),
 		btn:['提交','取消'],
-		yes:function(index,layero){	
+		yes:function(index,layero){
+      var id = $('#exitId').val();
+      var department_name = $('#exitdepartment_name').val();
+      var state = $('input[name="exitstate"]:checked').val();
+    var data = {"id":id,"department_name":department_name,"state":state};
+    console.log(data);
+    exitDepartment(data);
 		 var num=0;
 		 var str="";
-     $(".add_menber input[type$='text']").each(function(n){
+     $(".exit_menber input[type$='text']").each(function(n){
 
           if($(this).val()=="")
           {
@@ -300,32 +306,66 @@ function member_edit(department_name,state,id){
 		 });
 		  if(num>0){  return false;}	 	
           else{
-			  layer.alert('添加成功！',{
+			  layer.alert('修改成功！',{
                title: '提示框',				
-			icon:1,		
+			icon:1,	
+       end:function() {
+                      window.location.reload()
+                  }	
 			  });
 			   layer.close(index);	
 		  }		  		     				
 		},
     success:function(index,layero){
       console.log("测试该方法的执行位置")
-          $("#department_name").val(department_name);
+          $("#exitdepartment_name").val(department_name);
           if (state == 0) {
             $("#state0").attr('checked', 'true');
           }else if(state == 1){
             $("#state1").attr('checked', 'true');
-
           }
+          $("#exitId").val(id);
 
     }
     });
 }
+
+  /*提交修改数据*/
+  function exitDepartment(data){
+    $.ajax({
+        url:"<?php echo U('Admin/Index/exitDepartment');?>",//请求地址
+        data:data,//发送的数据
+        type:'POST',//请求的方式
+        success:function (argument) {
+          console.log(argument)
+        },// 请求成功执行的方法
+        beforeSend:function (argument) {
+          //console.log(argument);
+        },// 在发送请求之前调用,可以做一些验证之类的处理
+        error:function (argument) {},//请求失败调用
+    })
+  }
 /*用户-删除*/
 function member_del(obj,id){
-	layer.confirm('确认要删除吗？',function(index){
-		$(obj).parents("tr").remove();
-		layer.msg('已删除!',{icon:1,time:1000});
-	});
+  console.log(id);
+  var data = {"id":id};
+  $.ajax({
+        url:"<?php echo U('Admin/Index/delDepartment');?>",//请求地址
+        data:data,//发送的数据
+        type:'POST',//请求的方式
+        success:function (argument) {
+          console.log(argument)
+          layer.confirm('确认要删除吗？',function(index){
+    $(obj).parents("tr").remove();
+    layer.msg('已删除!',{icon:1,time:1000});
+  });
+        },// 请求成功执行的方法
+        beforeSend:function (argument) {
+          //console.log(argument);
+        },// 在发送请求之前调用,可以做一些验证之类的处理
+        error:function (argument) {},//请求失败调用
+    })
+	
 }
 laydate({
     elem: '#start',

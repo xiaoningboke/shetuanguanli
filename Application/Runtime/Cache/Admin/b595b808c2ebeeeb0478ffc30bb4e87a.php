@@ -239,7 +239,7 @@
 						<!--<li><a href="javascript:void(0" name="Systems.html" title="系统设置" class="iframeurl"><i class="icon-cog"></i>网站设置</a></li>-->
 						<li><a href="javascript:void(0)" name="admin_info.html" title="个人信息" class="iframeurl"><i class="icon-user"></i>个人资料</a></li>
 						<li class="divider"></li>
-						<li><a href="javascript:ovid(0)" id="Exit_system"><i class="icon-off"></i>退出</a></li>
+						<li><a href="javascript:void(0)" id="Exit_system"><i class="icon-off"></i>退出</a></li>
 					</ul> </li>
 				<!--<li class="purple">
                           <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-bell-alt"></i><span class="badge badge-important">8</span></a>
