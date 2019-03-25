@@ -12676,3 +12676,2278 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
 
+[ 2019-03-25T18:45:01+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0101s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\UserModel.class.php 第 39 行.
+SQL: UPDATE `stgl_user` SET `phone`='17852661518',`email`='sun@aliyun.com',`name`='admin',`department`='计算机软件学院',`major`='软件工程',`grade`='2015',`userclass`='2' WHERE `Id` = 1 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2019-03-25T18:45:09+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0119s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\UserModel.class.php 第 39 行.
+SQL: UPDATE `stgl_user` SET `phone`='17852661518',`email`='sun@aliyun.com',`name`='admin',`department`='计算机软件学院',`major`='物联网工程',`grade`='2015',`userclass`='1' WHERE `Id` = 1 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2019-03-25T18:45:12+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0294s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2019-03-25T18:46:04+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2019-03-25T18:46:12+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0153s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\UserModel.class.php 第 39 行.
+SQL: UPDATE `stgl_user` SET `phone`='17852661518',`email`='sun@aliyun.com',`name`='admin',`department`='经管学院',`major`='软件工程',`grade`='2015',`userclass`='1' WHERE `Id` = 1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2019-03-25T18:46:14+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2019-03-25T18:46:44+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2019-03-25T18:46:58+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2019-03-25T18:46:58+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2019-03-25T18:46:58+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2019-03-25T18:46:59+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2019-03-25T18:46:59+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2019-03-25T18:47:15+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2019-03-25T18:47:15+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2019-03-25T18:47:20+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2019-03-25T18:47:44+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006614s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2019-03-25T18:47:47+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2019-03-25T18:48:07+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0153s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2019-03-25T18:48:09+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2019-03-25T18:48:24+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2019-03-25T18:51:02+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2019-03-25T18:51:06+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2019-03-25T18:51:32+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2019-03-25T18:51:33+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2019-03-25T18:51:36+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2019-03-25T18:51:46+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0177s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2019-03-25T18:51:51+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2019-03-25T18:53:03+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2019-03-25T18:53:06+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2019-03-25T18:53:52+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2019-03-25T18:53:56+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2019-03-25T18:54:24+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2019-03-25T18:54:27+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2019-03-25T18:54:36+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0223s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2019-03-25T18:54:40+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2019-03-25T18:54:51+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2019-03-25T18:54:53+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2019-03-25T18:55:01+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001704s ]
+
+[ 2019-03-25T18:55:07+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2019-03-25T18:55:43+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2019-03-25T18:55:47+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2019-03-25T18:55:50+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2019-03-25T18:55:51+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2019-03-25T18:55:51+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2019-03-25T18:55:55+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2019-03-25T18:56:26+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2019-03-25T18:56:29+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2019-03-25T18:57:07+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0116s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\UserModel.class.php 第 39 行.
+SQL: UPDATE `stgl_user` SET `phone`='17852661518',`email`='sun@aliyun.com',`name`='admin',`department`='计算机软件学院',`major`='软件工程',`grade`='2015',`userclass`='2' WHERE `Id` = 1 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2019-03-25T18:57:08+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2019-03-25T18:57:14+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0113s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\UserModel.class.php 第 39 行.
+SQL: UPDATE `stgl_user` SET `phone`='17852661518',`email`='sun@aliyun.com',`name`='admin',`department`='教师与教育学院',`major`='物联网工程',`grade`='2015',`userclass`='2' WHERE `Id` = 1 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2019-03-25T18:57:16+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2019-03-25T18:58:43+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2019-03-25T18:58:47+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2019-03-25T18:58:54+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2019-03-25T19:00:40+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2019-03-25T19:00:47+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\UserModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2019-03-25T19:01:03+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2019-03-25T19:01:11+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0103s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\UserModel.class.php 第 39 行.
+SQL: UPDATE `stgl_user` SET `password`='74be16979710d4c4e7c6647856088456' WHERE `Id` = 1 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2019-03-25T19:01:28+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-03-25T19:01:31+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2019-03-25T19:01:46+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-03-25T19:01:52+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2019-03-25T19:01:53+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2019-03-25T19:01:53+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2019-03-25T19:03:16+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0162s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-03-25T19:03:37+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0084s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\UserModel.class.php 第 39 行.
+SQL: UPDATE `stgl_user` SET `password`='74be16979710d4c4e7c6647856088456' WHERE `Id` = 1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2019-03-25T19:03:46+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 233 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-03-25T19:03:48+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2019-03-25T19:04:15+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2019-03-25T19:04:15+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2019-03-25T19:04:15+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2019-03-25T19:04:23+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0149s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0111s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\UserModel.class.php 第 39 行.
+SQL: UPDATE `stgl_user` SET `password`='3049a1f0f1c808cdaa4fbed0e01649b1' WHERE `Id` = 1 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2019-03-25T19:04:29+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0135s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\UserModel.class.php 第 39 行.
+SQL: UPDATE `stgl_user` SET `password`='28c8edde3d61a0411511d3b1866f0636' WHERE `Id` = 1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2019-03-25T19:04:39+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUserPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0149s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0111s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\UserModel.class.php 第 39 行.
+SQL: UPDATE `stgl_user` SET `password`='14e1b600b1fd579f47433b88e8d85291' WHERE `Id` = 1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2019-03-25T19:04:41+08:00 ] ::1 /shetuanguanli/index.php/Admin/index/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2019-03-25T19:04:43+08:00 ] ::1 /shetuanguanli/index.php/Admin/admin_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+ERR: 无法加载控制器:Admin_info
+
+[ 2019-03-25T19:04:46+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/admin_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2019-03-25T19:04:47+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2019-03-25T19:04:48+08:00 ] ::1 /shetuanguanli/index.php/Admin/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+ERR: 无法加载控制器:Home
+
+[ 2019-03-25T19:04:49+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/admin_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2019-03-25T19:05:16+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0146s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0159s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\UserModel.class.php 第 39 行.
+SQL: UPDATE `stgl_user` SET `phone`='17852661518',`email`='sun@aliyun.com',`name`='admin',`department`='计算机软件学院',`major`='软件工程',`grade`='2015',`userclass`='2' WHERE `Id` = 1 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2019-03-25T19:05:18+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/admin_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `stgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2019-03-25T19:05:21+08:00 ] ::1 /shetuanguanli/index.php/Admin/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+ERR: 无法加载控制器:Home
+
+[ 2019-03-25T19:05:22+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/department_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stgl_department` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2019-03-25T19:05:22+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/major_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0094s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MajorModel::selMajor(), called in D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php on line 87 and defined D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0093s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 31 行.
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MajorModel::countMajor(), called in D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php on line 88 and defined D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 40 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `stgl_major` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2019-03-25T19:05:24+08:00 ] ::1 /shetuanguanli/index.php/Admin/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+ERR: 无法加载控制器:Home
+
+[ 2019-03-25T19:17:42+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000948s ]
+
+[ 2019-03-25T19:17:59+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+
+[ 2019-03-25T19:18:51+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2019-03-25T19:18:51+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+ERR: 非法操作:home
+
+[ 2019-03-25T19:18:59+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001021s ]
+
+[ 2019-03-25T19:19:18+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/department_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stgl_department` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2019-03-25T19:19:19+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/major_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0168s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MajorModel::selMajor(), called in D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php on line 103 and defined D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 31 行.
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MajorModel::countMajor(), called in D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php on line 104 and defined D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 40 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `stgl_major` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2019-03-25T19:19:21+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 158 行.
+NOTIC: [8] Undefined index: state D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `stgl_user` WHERE `username` LIKE '%%' AND `state` LIKE '%%' ORDER BY id LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stgl_user` WHERE `username` LIKE '%%' AND `state` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2019-03-25T19:19:25+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/major_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0110s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MajorModel::selMajor(), called in D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php on line 103 and defined D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0109s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 31 行.
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MajorModel::countMajor(), called in D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php on line 104 and defined D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 40 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `stgl_major` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2019-03-25T19:19:27+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/department_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stgl_department` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2019-03-25T19:19:28+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 158 行.
+NOTIC: [8] Undefined index: state D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0108s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `stgl_user` WHERE `username` LIKE '%%' AND `state` LIKE '%%' ORDER BY id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stgl_user` WHERE `username` LIKE '%%' AND `state` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2019-03-25T19:19:35+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/updateUserState.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0119s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\UserModel.class.php 第 39 行.
+SQL: UPDATE `stgl_user` SET `state`='1' WHERE `Id` = 1 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2019-03-25T19:19:37+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `stgl_user` WHERE `username` LIKE '%%' AND `state` LIKE '%1%' ORDER BY id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stgl_user` WHERE `username` LIKE '%%' AND `state` LIKE '%1%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2019-03-25T19:19:39+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+NOTIC: [8] Undefined index: state D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `stgl_user` WHERE `username` LIKE '%%' AND `state` LIKE '%%' ORDER BY id LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stgl_user` WHERE `username` LIKE '%%' AND `state` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2019-03-25T19:19:44+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/updateUserState.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0147s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0127s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\UserModel.class.php 第 39 行.
+SQL: UPDATE `stgl_user` SET `state`='0' WHERE `Id` = 1 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2019-03-25T19:21:11+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0117s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\UserModel.class.php 第 39 行.
+SQL: UPDATE `stgl_user` SET `username`='admin',`phone`='17852661518',`email`='sun@aliyun.com',`name`='admin',`identity`='3',`state`='1',`department`='计算机软件学院',`major`='软件工程',`grade`='2015',`userclass`='2' WHERE `Id` = 1 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2019-03-25T19:21:12+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+NOTIC: [8] Undefined index: state D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0113s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `stgl_user` WHERE `username` LIKE '%%' AND `state` LIKE '%%' ORDER BY id LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stgl_user` WHERE `username` LIKE '%%' AND `state` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2019-03-25T19:21:16+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/updateUserState.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0126s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\UserModel.class.php 第 39 行.
+SQL: UPDATE `stgl_user` SET `state`='0' WHERE `Id` = 1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2019-03-25T19:21:20+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/exitUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0150s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\UserModel.class.php 第 39 行.
+SQL: UPDATE `stgl_user` SET `username`='admin1',`phone`='17852661518',`email`='sun@aliyun.com',`name`='孙肖宁',`identity`='2',`state`='0',`department`='计算机软件学院',`major`='软件工程',`grade`='2015',`userclass`='2' WHERE `Id` = 2 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2019-03-25T19:21:21+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [8] Undefined index: state D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0133s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `stgl_user` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `stgl_user` WHERE `username` LIKE '%%' AND `state` LIKE '%%' ORDER BY id LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stgl_user` WHERE `username` LIKE '%%' AND `state` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `stgl_department`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+

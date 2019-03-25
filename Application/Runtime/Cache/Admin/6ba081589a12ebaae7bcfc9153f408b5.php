@@ -204,6 +204,9 @@
                layer.alert('修改成功！', {
                 title: '提示框',
                 icon: 1,
+                end: function () {
+                    window.location.reload();
+                }
             });
             },// 请求成功执行的方法
             beforeSend: function (argument) {
@@ -274,18 +277,27 @@
                 } else {
                 	var id = <?php echo ($data["id"]); ?>;
                 	//console.log($("#Nes_pas").val()+"==="+$("#password").val())
-                	$pawData = {"id":id,"passwoed":$("#Nes_pas").val(),"oldpassword":$("#password").val()};
-                	console.log($pawData);
+                	var pawData = {"id":id,"password":$("#Nes_pas").val(),"oldpassword":$("#password").val()};
+                	console.log(pawData);
                 	 $.ajax({
 			            url: "<?php echo U('Admin/Index/exitUserPassword');?>",//请求地址
 			            data: pawData,//发送的数据
 			            type: 'POST',//请求的方式
 			            success: function (argument) {
-			                 layer.alert('修改成功！', {
-		                        title: '提示框',
-		                        icon: 1,
-		                    });
-		                    //layer.close(index);
+			            	console.log(argument);
+			            	if(argument==100){
+				            		layer.alert('原密码错误！', {
+			                        title: '提示框',
+			                        icon: 1,
+		                    	});
+			            	}else{
+			            		layer.alert('修改成功！', {
+			                        title: '提示框',
+			                        icon: 1,
+			                    });
+			            	}
+			                 
+		                    layer.close(index);
 			            },// 请求成功执行的方法
 			            beforeSend: function (argument) {
 			                //console.log(argument);

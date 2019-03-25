@@ -14,6 +14,22 @@ use Admin\Model\UserModel;
  */
 class IndexController extends Controller
 {
+    /**
+     * 前置方法
+     * @return [type] [description]
+     */
+    public function _initialize(){
+         if (!session('?user')) {
+             $this->error('对不起，您还没有登录!请先登录在进行操作',U('Login/Index/index'));
+        }
+        if(session('user')["identity"]!=3){
+            $this->error('对不起，您没有权限',U('Login/Index/quit'));
+        }
+    }
+    /**
+     * 首页显示
+     * @return [type] [description]
+     */
     public function index()
     {
         $this->display();
@@ -235,7 +251,16 @@ class IndexController extends Controller
         $user = new UserModel();
         $where['id'] = array('eq',$id);
         $userData = $user->findUser($where);
-        var_dump( $userData);
+        if(md5(md5($oldpassword))!=$userData["password"]){
+            echo 100;
+            exit();
+        }
+        $data["id"] = $id;
+        $data["password"] = md5(md5($password));
+        $user = new UserModel();
+        $f = $user->updateState($data);
+        echo $f;
+
     }
 
 }
