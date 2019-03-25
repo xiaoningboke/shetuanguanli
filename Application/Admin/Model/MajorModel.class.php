@@ -7,16 +7,16 @@ use Think\Model;
 /**
  * 用户model类
  */
-class DepartmentModel extends Model
+class MajorModel extends Model
 {
     /**
-     * 添加系部信息
+     * 添加专业信息
      * @param [type] $data [description]
      */
-    public function addDepartment($data)
+    public function addMajor($data)
     {
-        $department = M("Department");
-        $i = $department->add($data);
+        $major = M("Major");
+        $i = $major->add($data);
         return $i;
     }
 
@@ -25,10 +25,10 @@ class DepartmentModel extends Model
      * @param  [type] $data [description]
      * @return [type]       [description]
      */
-    public function selDepartment($data)
+    public function selMajor($data)
     {
-        $department = M("Department");
-        $data = $department->where($data)->select();
+        $major = M("Major");
+        $data = $major->where($data)->select();
         return $data;
     }
 
@@ -37,10 +37,10 @@ class DepartmentModel extends Model
      * @param  [type] $data [description]
      * @return [type]       [description]
      */
-    public function countDepartment($data)
+    public function countMajor($data)
     {
-        $department = M("Department");
-        $count = $department->where($data)->count();
+        $major = M("Major");
+        $count = $major->where($data)->count();
         return $count;
     }
 
@@ -51,9 +51,9 @@ class DepartmentModel extends Model
      */
     public function updateState($data)
     {
-        $department = M("Department");
+        $major = M("Major");
         $where = array("Id" => $data[id]);
-        $f = $department->where($where)->save($data);
+        $f = $major->where($where)->save($data);
         return $f;
     }
 
@@ -62,13 +62,12 @@ class DepartmentModel extends Model
      * @param  [type] $id [description]
      * @return [type]     [description]
      */
-    public function delDepartmentById($id)
+    public function delMajorById($id)
     {
         $where = array('Id' => $id);
-        $department = M("Department");
-        $f = $department->where($where)->delete();
+        $major = M("Major");
+        $f = $major->where($where)->delete();
         return $f;
     }
-
 
 }

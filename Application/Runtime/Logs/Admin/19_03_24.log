@@ -5562,3 +5562,514 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
 ERR: 非法操作:home
 
+[ 2019-03-24T19:35:03+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001423s ]
+
+[ 2019-03-24T19:35:03+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+ERR: 非法操作:css
+
+[ 2019-03-24T19:35:04+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+ERR: 非法操作:js
+
+[ 2019-03-24T19:35:04+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+ERR: 非法操作:home
+
+[ 2019-03-24T19:35:06+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/major_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 64 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001996s ]
+
+[ 2019-03-24T19:38:40+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001983s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001530s ]
+
+[ 2019-03-24T19:38:40+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+ERR: 非法操作:css
+
+[ 2019-03-24T19:38:41+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+ERR: 非法操作:js
+
+[ 2019-03-24T19:38:41+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002488s ]
+ERR: 非法操作:home
+
+[ 2019-03-24T19:38:44+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/major_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 64 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2019-03-24T19:38:53+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/addmajor.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0113s ]
+SQL: INSERT INTO `stgl_department` (`state`) VALUES ('0') [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001057s ]
+
+[ 2019-03-24T19:38:54+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/major_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 64 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001708s ]
+
+[ 2019-03-24T19:39:10+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/magor_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002320s ]
+ERR: 非法操作:magor_list
+
+[ 2019-03-24T19:39:13+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/major_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 64 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002325s ]
+
+[ 2019-03-24T19:39:17+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/major_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 64 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2019-03-24T19:39:31+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/addmajor.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0195s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0127s ]
+SQL: INSERT INTO `stgl_department` (`state`) VALUES ('0') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2019-03-24T19:39:33+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/major_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 64 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001520s ]
+
+[ 2019-03-24T19:40:41+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/major_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 64 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001882s ]
+
+[ 2019-03-24T19:40:50+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/addMajor.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `stgl_department` [ RunTime:0.0107s ]
+SQL: INSERT INTO `stgl_department` (`state`) VALUES ('0') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001376s ]
+
+[ 2019-03-24T19:40:52+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/major_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 64 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002096s ]
+
+[ 2019-03-24T19:41:58+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/addMajor.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0120s ]
+SQL: INSERT INTO `stgl_major` (`major_name`,`state`) VALUES ('软件工程','0') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2019-03-24T19:41:59+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/major_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 64 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Runtime\Cache\Admin\200d386562391b02a72da84ce657c074.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001466s ]
+
+[ 2019-03-24T19:49:28+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/major_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0123s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MajorModel::selMajor(), called in D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php on line 86 and defined D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 31 行.
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MajorModel::countMajor(), called in D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php on line 87 and defined D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 40 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `stgl_major` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000521s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2019-03-24T19:50:37+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/major_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0111s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MajorModel::selMajor(), called in D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php on line 86 and defined D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 31 行.
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MajorModel::countMajor(), called in D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php on line 87 and defined D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 40 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `stgl_major` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2019-03-24T19:50:46+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/major_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0113s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MajorModel::selMajor(), called in D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php on line 86 and defined D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 31 行.
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MajorModel::countMajor(), called in D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php on line 87 and defined D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 40 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `stgl_major` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001379s ]
+
+[ 2019-03-24T19:51:02+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/addMajor.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0158s ]
+SQL: INSERT INTO `stgl_major` (`major_name`,`state`) VALUES ('物联网工程','0') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2019-03-24T19:51:03+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/major_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0126s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MajorModel::selMajor(), called in D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php on line 86 and defined D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 31 行.
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MajorModel::countMajor(), called in D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php on line 87 and defined D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 40 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `stgl_major` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2019-03-24T19:51:05+08:00 ] ::1 /shetuanguanli/index.php/Admin/Index/major_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0214s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MajorModel::selMajor(), called in D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php on line 86 and defined D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `stgl_major` [ RunTime:0.0119s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 31 行.
+SQL: SELECT * FROM `stgl_major`  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MajorModel::countMajor(), called in D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Controller\IndexController.class.php on line 87 and defined D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 40 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\shetuanguanli\Application\Admin\Model\MajorModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `stgl_major` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+

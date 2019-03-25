@@ -1,53 +1,5 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <link href="/shetuanguanli/Public/assets/css/bootstrap.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="/shetuanguanli/Public/css/style.css"/>       
-        <link href="/shetuanguanli/Public/assets/css/codemirror.css" rel="stylesheet">
-        <link rel="stylesheet" href="/shetuanguanli/Public/assets/css/ace.min.css" />
-        <link rel="stylesheet" href="/shetuanguanli/Public/assets/css/font-awesome.min.css" />
-		<!--[if IE 7]>
-		  <link rel="stylesheet" href="/shetuanguanli/Public/assets/css/font-awesome-ie7.min.css" />
-		<![endif]-->
-        <!--[if lte IE 8]>
-		  <link rel="stylesheet" href="/shetuanguanli/Public/assets/css/ace-ie.min.css" />
-		<![endif]-->
-			<script src="/shetuanguanli/Public/assets/js/jquery.min.js"></script>
-
-		<!-- <![endif]-->
-
-		<!--[if IE]>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<![endif]-->
-
-		<!--[if !IE]> -->
-
-		<script type="text/javascript">
-			window.jQuery || document.write("<script src='/shetuanguanli/Public/assets/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
-		</script>
-
-		<!-- <![endif]-->
-
-		<!--[if IE]>
-<script type="text/javascript">
- window.jQuery || document.write("<script src='/shetuanguanli/Public/assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
-</script>
-<![endif]-->
-
-		<script type="text/javascript">
-			if("ontouchend" in document) document.write("<script src='/shetuanguanli/Public/assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
-		</script>
-		<script src="/shetuanguanli/Public/assets/js/bootstrap.min.js"></script>
-		<script src="/shetuanguanli/Public/assets/js/typeahead-bs2.min.js"></script>
-		<!-- page specific plugin scripts -->
-		<script src="/shetuanguanli/Public/assets/js/jquery.dataTables.min.js"></script>
-		<script src="/shetuanguanli/Public/assets/js/jquery.dataTables.bootstrap.js"></script>
-        <script type="text/javascript" src="/shetuanguanli/Public/js/H-ui.js"></script> 
-        <script type="text/javascript" src="/shetuanguanli/Public/js/H-ui.admin.js"></script> 
-        <script src="/shetuanguanli/Public/assets/layer/layer.js" type="text/javascript" ></script>
-        <script src="/shetuanguanli/Public/assets/laydate/laydate.js" type="text/javascript"></script>
-<title>系部列表</title>
+<include file="Public/header"/>
+<title>专业列表</title>
 </head>
 
 <body>
@@ -59,9 +11,9 @@
             <!---->
             <div class="border clearfix">
        <span class="l_f">
-        <a href="javascript:void()" id="member_add" class="btn btn-warning"><i class="icon-plus"></i>添加系部</a>
+        <a href="javascript:void()" id="member_add" class="btn btn-warning"><i class="icon-plus"></i>添加专业</a>
        </span>
-                <span class="r_f">共：<b><?php echo ($count); ?></b>条</span>
+                <span class="r_f">共：<b>{$count}</b>条</span>
             </div>
             <!---->
             <div class="table_menu_list">
@@ -69,37 +21,45 @@
                     <thead>
                     <tr>
                         <th width="10">序号</th>
-                        <th width="100">系部名称</th>
+                        <th width="100">专业名称</th>
                         <th width="70">状态</th>
                         <th width="250">操作</th>
                     </tr>
                     </thead>
                     <tbody>
-                    <?php if(is_array($data)): foreach($data as $key=>$vo): ?><tr>
-                            <td><?php echo ($key+1); ?></td>
-                            <td><?php echo ($vo["department_name"]); ?></td>
-                            <?php if(($vo["state"] == 0) ): ?><td class="td-status"><span class="label label-success radius">已启用</span></td>
-                                <?php elseif(($vo["state"] == 1)): ?>
+                    <foreach name="data" item="vo">
+                        <tr>
+                            <td>{$key+1}</td>
+                            <td>{$vo.major_name}</td>
+                            <if condition="($vo.state eq 0) ">
+                                <td class="td-status"><span class="label label-success radius">已启用</span></td>
+                                <elseif condition="($vo.state eq 1)"/>
                                 <td class="td-status"><span class="label label-defaunt radius">已停用</span></td>
-                                <?php else: ?>
-                                <td class="td-status"><span class="label label-defaunt radius"></span></td><?php endif; ?>
+                                <else/>
+                                <td class="td-status"><span class="label label-defaunt radius"></span></td>
+
+                            </if>
 
                             <td class="td-manage">
 
-                                <?php if(($vo["state"] == 0) ): ?><a onClick="member_stop(this,<?php echo ($vo["id"]); ?>)" href="javascript:;" title="停用"
+                                <if condition="($vo.state eq 0) ">
+                                    <a onClick="member_stop(this,{$vo.id})" href="javascript:;" title="停用"
                                        class="btn btn-xs btn-success"><i class="icon-ok bigger-120"></i></a>
-                                    <?php elseif(($vo["state"] == 1)): ?>
-                                    <a onClick="member_start(this,<?php echo ($vo["id"]); ?>)" href="javascript:;" title="启用"
+                                    <elseif condition="($vo.state eq 1)"/>
+                                    <a onClick="member_start(this,{$vo.id})" href="javascript:;" title="启用"
                                        class="btn btn-xs"><i class="icon-ok bigger-120"></i></a>
-                                    <?php else: ?>
-                            <td class="td-status"><span class="label label-defaunt radius"></span></td><?php endif; ?>
+                                    <else/>
+                            <td class="td-status"><span class="label label-defaunt radius"></span></td>
 
-                            <a title="编辑" onclick="member_edit('<?php echo ($vo["department_name"]); ?>','<?php echo ($vo["state"]); ?>','<?php echo ($vo["id"]); ?>')"
+                            </if>
+
+                            <a title="编辑" onclick="member_edit('{$vo.major_name}','{$vo.state}','{$vo.id}')"
                                href="javascript:;" class="btn btn-xs btn-info"><i class="icon-edit bigger-120"></i></a>
-                            <a title="删除" href="javascript:;" onclick="member_del(this,<?php echo ($vo["id"]); ?>)"
+                            <a title="删除" href="javascript:;" onclick="member_del(this,{$vo.id})"
                                class="btn btn-xs btn-warning"><i class="icon-trash  bigger-120"></i></a>
                             </td>
-                        </tr><?php endforeach; endif; ?>
+                        </tr>
+                    </foreach>
                     </tbody>
                 </table>
             </div>
@@ -110,7 +70,7 @@
 <div class="add_menber" id="add_menber_style" style="display:none">
 
     <ul class=" page-content">
-        <li><label class="label_name">系部名称：</label><span class="add_name"><input value="" name="department_name"
+        <li><label class="label_name">专业名称：</label><span class="add_name"><input value="" name="major_name"
                                                                                  type="text" class="text_add"/></span>
             <div class="prompt r_f"></div>
         </li>
@@ -123,12 +83,12 @@
     </ul>
 </div>
 
-<!-- 修改系部信息 -->
+<!-- 修改专业信息 -->
 <div class="exit_menber" id="exit_menber_style" style="display:none">
     <input type="hidden" name="exitid" id="exitId">
     <ul class=" page-content">
-        <li><label class="label_name">系部名称：</label><span class="add_name"><input id="exitdepartment_name"
-                                                                                 name="department_name" type="text"
+        <li><label class="label_name">专业名称：</label><span class="add_name"><input id="exitmajor_name"
+                                                                                 name="major_name" type="text"
                                                                                  class="text_add"/></span>
             <div class="prompt r_f"></div>
         </li>
@@ -181,11 +141,11 @@
             return 'left';
         }
     })
-    /*用户-添加*/
+    /*专业-添加*/
     $('#member_add').on('click', function () {
         layer.open({
             type: 1,
-            title: '添加系部',
+            title: '添加专业',
             maxmin: true,
             shadeClose: true, //点击遮罩关闭层
             area: ['800px', ''],
@@ -206,13 +166,13 @@
                     }
                 });
 
-                var department_name = $(".add_menber input[type$='text']").val();
+                var major_name = $(".add_menber input[type$='text']").val();
                 var state = $('input[name="state"]:checked').val()
-                //console.log(department_name+"--------------------"+state);
-                var addDat = {'department_name': department_name, 'state': state};
+                console.log(major_name+"--------------------"+state);
+                var addDat = {'major_name': major_name, 'state': state};
                 ////////////////
                 $.ajax({
-                    url: "<?php echo U('Admin/Index/adddepartment');?>",//请求地址
+                    url: "{:U('Admin/Index/addMajor')}",//请求地址
                     data: addDat,//发送的数据
                     type: 'POST',//请求的方式
                     success: function (argument) {
@@ -243,11 +203,11 @@
         });
     });
 
-    /*改变系部的状态*/
+    /*改变专业的状态*/
     function updateState(id, state) {
         var data = {"id": id, "state": state};
         $.ajax({
-            url: "<?php echo U('Admin/Index/updateDepartmentState');?>",//请求地址
+            url: "{:U('Admin/Index/updateMajorState')}",//请求地址
             data: data,//发送的数据
             type: 'POST',//请求的方式
             success: function (argument) {
@@ -261,7 +221,7 @@
         });
     }
 
-    /*系部-查看*/
+    /*专业-查看*/
     function member_show(title, url, id, w, h) {
         layer_show(title, url + '#?=' + id, w, h);
     }
@@ -294,10 +254,10 @@
     }
 
     /*用户-编辑*/
-    function member_edit(department_name, state, id) {
+    function member_edit(major_name, state, id) {
         layer.open({
             type: 1,
-            title: '修改系部信息',
+            title: '修改专业信息',
             maxmin: true,
             shadeClose: false, //点击遮罩关闭层
             area: ['800px', ''],
@@ -305,11 +265,11 @@
             btn: ['提交', '取消'],
             yes: function (index, layero) {
                 var id = $('#exitId').val();
-                var department_name = $('#exitdepartment_name').val();
+                var major_name = $('#exitmajor_name').val();
                 var state = $('input[name="exitstate"]:checked').val();
-                var data = {"id": id, "department_name": department_name, "state": state};
+                var data = {"id": id, "major_name": major_name, "state": state};
                 console.log(data);
-                exitDepartment(data);
+                exitmajor(data);
                 var num = 0;
                 var str = "";
                 $(".exit_menber input[type$='text']").each(function (n) {
@@ -339,7 +299,7 @@
             },
             success: function (index, layero) {
                 console.log("测试该方法的执行位置")
-                $("#exitdepartment_name").val(department_name);
+                $("#exitmajor_name").val(major_name);
                 if (state == 0) {
                     $("#state0").attr('checked', 'true');
                 } else if (state == 1) {
@@ -352,9 +312,9 @@
     }
 
     /*提交修改数据*/
-    function exitDepartment(data) {
+    function exitmajor(data) {
         $.ajax({
-            url: "<?php echo U('Admin/Index/exitDepartment');?>",//请求地址
+            url: "{:U('Admin/Index/exitMajor')}",//请求地址
             data: data,//发送的数据
             type: 'POST',//请求的方式
             success: function (argument) {
@@ -373,7 +333,7 @@
         console.log(id);
         var data = {"id": id};
         $.ajax({
-            url: "<?php echo U('Admin/Index/delDepartment');?>",//请求地址
+            url: "{:U('Admin/Index/delMajor')}",//请求地址
             data: data,//发送的数据
             type: 'POST',//请求的方式
             success: function (argument) {
