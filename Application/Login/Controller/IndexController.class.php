@@ -109,4 +109,43 @@ class IndexController extends Controller {
 	    $verify = new \Think\Verify();
 	    return $verify->check($code, $id);
 	}
+
+    /**
+     * 显示注册页面
+     * @return [type] [description]
+     */
+    public function register(){
+        //防止已经登录，先进性退出
+        $this->quit();
+        $this->display();
+    }
+
+    /**
+     * 处理注册数据
+     * @return [type] [description]
+     */
+    public function doregister(){
+        //判断验证码是否正确
+         if(!$this->check_verify($_POST["code"]))
+        {
+            $this->error("验证码错误",U('Login/Index/register')) ;
+            exit();
+        }
+        //判断用户是否存在
+        $user = new UserModel();
+        $userData = $user->findUserByUsername($_POST["username"]);
+        if (!empty($useNoise)) {
+            $this->error("该用户已存在",U('Login/Index/register')) ;
+            exit();
+        }
+        //注册
+        $data["username"] = $_POST["username"];
+        $data["password"] = md5(md5($_POST["password"]));
+        $f = $user->addUser($data);
+        if($f>0){
+            $this->success("注册成功，请直接登录",U('Admin/Index/index'));
+        }else{
+            $this->error("注册失败");
+        }
+    }
 }

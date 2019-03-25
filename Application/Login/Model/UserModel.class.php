@@ -18,4 +18,14 @@ class UserModel extends Model {
 		$data = $user->where($where)->find();
 		return $data;
 	}
+
+	/**
+	 * 用户注册（添加用户）
+	 * @param [type] $data [description]
+	 */
+	public function addUser($data){
+		$user = M("User");
+		$f = $user->add($data);
+		return $f;
+	}
 }
