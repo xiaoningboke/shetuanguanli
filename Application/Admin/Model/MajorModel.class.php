@@ -5,7 +5,7 @@ namespace Admin\Model;
 use Think\Model;
 
 /**
- * 用户model类
+ * 专业model类
  */
 class MajorModel extends Model
 {

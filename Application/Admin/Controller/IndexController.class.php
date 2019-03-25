@@ -2,10 +2,11 @@
 
 namespace Admin\Controller;
 
-use Admin\Model\MajorModel;
 use Think\Controller;
 
+use Admin\Model\MajorModel;
 use Admin\Model\DepartmentModel;
+use Admin\Model\UserModel;
 
 
 /**
@@ -129,6 +130,71 @@ class IndexController extends Controller
     {
         $major = new MajorModel();
         $f = $major->delMajorById($_POST["id"]);
+        echo $f;
+    }
+
+    /**
+     * 用户列表查询
+     * @return [type] [description]
+     */
+    public function user_list(){
+
+        $map['username'] =array('like','%'.$_POST["username"].'%');
+        $map['state'] =array('like','%'.$_POST["state"].'%');
+        $user = new UserModel();
+
+      //p是前台传值过来的参数，也就是页码
+        if($_GET['p']==NULL){
+            $p=1;
+        }else{
+            $p=$_GET['p'];
+        }
+        $data = $user->selUser($p,$map);
+        $this->assign('data',$data);// 赋值数据集
+        $count = $user->countUser($map);
+        $Page = new \Think\Page($count,10);
+        $show = $Page->show();
+        $this->assign('page',$show);
+        $this->assign('count',$count);
+
+        //查询系部
+        $department = new DepartmentModel();
+        $xi['state'] = array('not equal',1);
+        $departmentData = $department->select($xi);
+        $this->assign('departmentData',$departmentData);
+
+        //查询专业
+        $major = new MajorModel();
+        $zy['state'] = array('not equal',1);
+        $majorData = $major->select($zy);
+        $this->assign('majorData',$majorData);
+
+        $this->display();
+    }
+
+    /**
+     * 修改用户的状态(AJAX)
+     * @return [type] [description]
+     */
+    public function updateUserState(){
+        $user = new UserModel();
+        $f = $user->updateState($_POST);
+        echo $f;
+    }
+
+    /**
+     * 修改用户信息（AJAX）
+     * @return [type] [description]
+     */
+    public function exitUser(){
+        $user = new UserModel();
+        $f = $user->updateState($_POST);
+        echo $f;
+    }
+
+    public function delUser(){
+        $user = new UserModel();
+        $f = $user->delUserById($_POST["id"]);
         echo $f;
     }
 }
