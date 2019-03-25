@@ -192,9 +192,50 @@ class IndexController extends Controller
         echo $f;
     }
 
+    /**
+     * 删除用户(AJAX)
+     * @return [type] [description]
+     */
     public function delUser(){
         $user = new UserModel();
         $f = $user->delUserById($_POST["id"]);
         echo $f;
     }
+
+    /**
+     * 显示个人信息的页面
+     * @return [type] [description]
+     */
+    public function admin_info(){
+        $id = session('user')["id"];
+        $where["id"] = array('eq',$id);
+        $user = new UserModel();
+        $data = $user->findUser($where);
+        $this->assign('data',$data);
+
+          //查询系部
+        $department = new DepartmentModel();
+        $xi['state'] = array('not equal',1);
+        $departmentData = $department->select($xi);
+        $this->assign('departmentData',$departmentData);
+
+        //查询专业
+        $major = new MajorModel();
+        $zy['state'] = array('not equal',1);
+        $majorData = $major->select($zy);
+        $this->assign('majorData',$majorData);
+
+        $this->display();
+    }
+
+    public function exitUserPassword(){
+        $id = $_POST["id"];
+        $password = $_POST["password"];
+        $oldpassword = $_POST["oldpassword"];
+        $user = new UserModel();
+        $where['id'] = array('eq',$id);
+        $userData = $user->findUser($where);
+        var_dump( $userData);
+    }
+
 }

@@ -52,4 +52,15 @@ class UserModel extends Model{
         $f = $user->where($where)->delete();
         return $f;
     }
+
+    /**
+     * 查找用户
+     * @param  [type] $where [description]
+     * @return [type]        [description]
+     */
+    public function findUser($where){
+    	$user = M("User");
+        $data = $user->where($where)->find();
+        return $data;
+    }
 }
